@@ -59,6 +59,16 @@ Requests: 95,180,34,119,11,123,62,64
 
 ---
 
+## Screenshots
+
+### Input Page
+![Input Screenshot](input.png)
+
+### Result Page
+![Result Screenshot](output.png)
+
+---
+
 ## Project Structure
 
 index.html
