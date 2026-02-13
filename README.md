@@ -71,7 +71,7 @@ Requests: 95,180,34,119,11,123,62,64
 
 ## Live Demo
 
-https://yourusername.github.io/advanced-disk-scheduling-simulator/
+ https://dudekularehaman2006.github.io/Advanced-Disk-Scheduling-Simulator/
 
 ---
 
