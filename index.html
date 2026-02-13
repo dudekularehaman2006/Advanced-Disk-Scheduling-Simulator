@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disk Scheduling Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Disk Scheduling Simulator</h1>
+
+    <div class="card">
+        <label>Disk Size</label>
+        <input type="number" id="diskSize" value="200">
+
+        <label>Initial Head Position</label>
+        <input type="number" id="headPosition" value="50">
+
+        <label>Request Sequence (comma separated)</label>
+        <input type="text" id="requests" placeholder="95,180,34,119,11,123,62,64">
+
+        <label>Direction (SCAN / C-SCAN)</label>
+        <select id="direction">
+            <option value="right">Right</option>
+            <option value="left">Left</option>
+        </select>
+
+        <button onclick="submitData()">Get Results</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
